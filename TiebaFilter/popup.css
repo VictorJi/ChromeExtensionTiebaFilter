@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;
+	margin: 0px;
+	padding: 5px;
+	background: white;
+	font-size: 9px;
+	width: 125px;
+}
+
+.taskItem {
+	cursor: pointer;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.taskTitle {
+	margin-left: 6px;
+	color: #2887dc;
+}
+
+.gray {
+	margin-left: 20px;
+	color: #2887dc;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.separator {
+	height: 0;
+	margin: 6px 6px;
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+label.on { 
+	width: 14px;
+	display: inline-block;
+	height: 12px;
+	background: url(images/checked.png) no-repeat;
+}
+
+label.off {
+	width: 14px;
+	display: inline-block;
+	height: 12px;
+}
